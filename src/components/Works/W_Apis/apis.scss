@@ -1,8 +1,10 @@
 .section-img {
     display: flex;
     justify-content: center;
+    justify-items: center;
     align-items: center;
-    gap: 3rem;
+    margin: 1rem;
+    gap: 1rem;
 
     .img-cole {
         display: flex;
@@ -10,7 +12,7 @@
         margin: 2rem;
 
         .content-colection {
-            .content-image  {
+            .content-image {
                 border-radius: 20px 0 0 0;
                 box-shadow: 5px 5px 10px #969696;
                 position: relative;
@@ -23,46 +25,48 @@
                 background-size: cover;
                 transition: .4s ease;
             }
-            .content-image:hover{
+            .content-image:hover {
                 box-shadow: 3px 3px 20px #333333ea;
             }
-            .content-image.exactTime{
-                background-image: url('../../../../public/assests/pages/ExactTime.png');
-            }
-            .content-image.artProject{
-                background-image: url('../../../../public/assests/pages/Art.png');
-            }
-            .content-image.spotify{
+            .content-image.spotify {
                 background-image: url('../../../../public/assests/pages/Spotify.png');
             }
-            .content-image.coventry{
-                background-image: url('../../../../public/assests/pages/Coventry.png');
+            .content-image.quiz {
+                background-image: url('../../../../public/assests/pages/Quiz2.png');
+            }
+            .content-image.none {
+                background-image: url('../../../../public/assests/icons/bloq.png');
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .section-img {
+        flex-direction: column;
+        gap: 1rem;
+
+        .img-cole {
+            flex-direction: column;
+
+            .content-colection {
+                .content-image {}
             }
         }
     }
 }
-@media screen and (max-width:768px){
-    .section-img{
+
+@media screen and (max-width:480px) {
+    .section-img {
         flex-direction: column;
         gap: 1rem;
-        .img-cole{
+
+        .img-cole {
             flex-direction: column;
-            .content-colection{
-                .content-image{
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width:480px){
-    .section-img{
-        flex-direction: column;
-        gap: 1rem;
-        .img-cole{
-            flex-direction: column;
-            .content-colection{
-                .content-image{
-                }
+
+            .content-colection {
+                .content-image {}
             }
         }
     }

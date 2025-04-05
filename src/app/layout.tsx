@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import {AosInit} from '../components/aos-init';
 import "./styles.css";
+import { EmailProvider } from "@/components/EmailContext";
 const poppins = Poppins({
   subsets: ["latin"],
   weight: [
@@ -22,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={poppins.className}>
-        {children}
+        <EmailProvider>
+          {children}
+        </EmailProvider>
         <AosInit/>
       </body>
     </html>

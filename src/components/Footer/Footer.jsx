@@ -1,9 +1,22 @@
+'use client'
 import "./footer.css"
+import Link from 'next/link'
+import React, { useContext } from "react";
 import { FaWhatsapp } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { EmailContext } from "../EmailContext";
+import { useRouter } from 'next/navigation';
 export default function Footer() {
+   const { setEmail } = useContext(EmailContext);
+   const handleEmailChange = (event) => {
+      setEmail(event.target.value);
+   };
+   const router = useRouter();
+   const handleRedirect = () => {
+     router.push('/contatos'); // Redireciona para "/contatos"
+   };
    return (
       <footer>
          <div className="footer_content">
@@ -62,16 +75,16 @@ export default function Footer() {
                   Digite seu email e clique no botão ao lado para enviar um e-mail direto.
                </p>
                <div className="input_group">
-                  <input type="email" className="email-input" />
-                  <button type="submit" href="contatos">
+                  <input type="email" className="email-input" name="email" placeholder="Digite seu e-mail" onChange={handleEmailChange} />
+                  <button type="submit" onClick={handleRedirect}>
                      <HiOutlineMail className="fa-regular fa-envelope" />
                   </button>
-                  <input type="hidden" name="redirectTo" value="http://localhost:3000/contatos"></input>
+                  <input type="hidden" name="redirectTo" value="/contatos"></input>
                </div>
             </div>
          </div>
          <div className="footer-copyright">
-            ©
+         &copy;
             2025 all rights reserved.
          </div>
       </footer>

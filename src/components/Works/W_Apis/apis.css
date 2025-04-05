@@ -1,8 +1,10 @@
 .section-img {
   display: flex;
   justify-content: center;
+  justify-items: center;
   align-items: center;
-  gap: 3rem;
+  margin: 1rem;
+  gap: 1rem;
 }
 .section-img .img-cole {
   display: flex;
@@ -25,17 +27,14 @@
 .section-img .img-cole .content-colection .content-image:hover {
   box-shadow: 3px 3px 20px rgba(51, 51, 51, 0.9176470588);
 }
-.section-img .img-cole .content-colection .content-image.exactTime {
-  background-image: url("../../../../public/assests/pages/ExactTime.png");
-}
-.section-img .img-cole .content-colection .content-image.artProject {
-  background-image: url("../../../../public/assests/pages/Art.png");
-}
 .section-img .img-cole .content-colection .content-image.spotify {
   background-image: url("../../../../public/assests/pages/Spotify.png");
 }
-.section-img .img-cole .content-colection .content-image.coventry {
-  background-image: url("../../../../public/assests/pages/Coventry.png");
+.section-img .img-cole .content-colection .content-image.quiz {
+  background-image: url("../../../../public/assests/pages/Quiz2.png");
+}
+.section-img .img-cole .content-colection .content-image.none {
+  background-image: url("../../../../public/assests/icons/bloq.png");
 }
 
 @media screen and (max-width: 768px) {

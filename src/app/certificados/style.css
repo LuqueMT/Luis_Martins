@@ -58,7 +58,7 @@
   }
   .container-body .content section .card-info {
     width: 85vw;
-    height: 50vh;
+    height: 30vh;
   }
 }
 @media screen and (max-width: 480px) {
@@ -66,7 +66,7 @@
     gap: 1rem;
   }
   .container-body .content section .card-info {
-    width: 85vw;
+    width: 90vw;
     height: 20vh;
   }
 }
@@ -79,7 +79,17 @@
     padding: 2rem 0 0 1rem;
   }
   .container-body .content section .card-info {
-    width: 90vw;
-    height: 12vh;
+    width: 85vw;
+    height: 13vh;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .container-body .content h2 {
+    font-size: 4rem;
+    padding: 2rem 0 0 1rem;
+  }
+  .container-body .content section .card-info {
+    width: 40vw;
+    height: 20vh;
   }
 }/*# sourceMappingURL=style.css.map */

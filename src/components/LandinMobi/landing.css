@@ -1,15 +1,18 @@
-.section-img {
+.section-img-mobile {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  justify-items: center;
   align-items: center;
-  gap: 3rem;
+  margin: 1rem;
+  gap: 1rem;
 }
-.section-img .img-cole {
+.section-img-mobile .img-cole {
   display: flex;
   gap: 1rem;
   margin: 2rem;
 }
-.section-img .img-cole .content-colection .content-image {
+.section-img-mobile .img-cole .content-colection .content-image {
   border-radius: 20px 0 0 0;
   box-shadow: 5px 5px 10px #969696;
   position: relative;
@@ -22,16 +25,16 @@
   background-size: cover;
   transition: 0.4s ease;
 }
-.section-img .img-cole .content-colection .content-image:hover {
+.section-img-mobile .img-cole .content-colection .content-image:hover {
   box-shadow: 3px 3px 20px rgba(51, 51, 51, 0.9176470588);
 }
-.section-img .img-cole .content-colection .content-image.flowBite {
+.section-img-mobile .img-cole .content-colection .content-image.flowBite {
   background-image: url("../../../public/assests/pages/FlowBite.png");
 }
-.section-img .img-cole .content-colection .content-image.nexusTravel {
+.section-img-mobile .img-cole .content-colection .content-image.nexusTravel {
   background-image: url("../../../public/assests/pages/NexusTravel.png");
 }
-.section-img .img-cole .content-colection .content-image.petshop {
+.section-img-mobile .img-cole .content-colection .content-image.petshop {
   background-image: url("../../../public/assests/pages/petshop.png");
 }
 

@@ -1,6 +1,5 @@
-import "../W_Apis/apis.css"
+import "./sites.css";
 import "../style.css"
-import Image from "next/image"
 import { IoInformationCircleOutline } from "react-icons/io5";
 import Link from "next/link"
 export default function W_Sites() {
@@ -13,12 +12,12 @@ export default function W_Sites() {
                             <h2>ExactTime</h2>
                             <Link target="_blank" href="https://luquemt.github.io/ExtactTime/">
                                 <div className="button-info">
-                                    <button className="button">Ver Mais</button>
+                                    <button className="button">Visualizar</button>
                                 </div>
                             </Link>
-                            <button className="button-2 show-popup">
+                            <Link target="_blank" className="button-2" href="https://github.com/LuqueMT/ExtactTime">
                                 <IoInformationCircleOutline />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -30,12 +29,12 @@ export default function W_Sites() {
                             <h2>ArtProject</h2>
                             <Link target="_blank" href="https://luquemt.github.io/Projeto-Art/">
                                 <div className="button-info">
-                                    <button className="button">Ver Mais</button>
+                                    <button className="button">Visualizar</button>
                                 </div>
                             </Link>
-                            <button className="button-2 show-popup">
+                            <Link target="_blank" className="button-2" href="https://github.com/LuqueMT/Projeto-Art">
                                 <IoInformationCircleOutline />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -47,12 +46,12 @@ export default function W_Sites() {
                             <h2>Coventry</h2>
                             <Link target="_blank" href="https://luquemt.github.io/coventry_project/">
                                 <div className="button-info">
-                                    <button className="button">Ver Mais</button>
+                                    <button className="button">Visualizar</button>
                                 </div>
                             </Link>
-                            <button className="button-2 show-popup">
+                            <Link target="_blank" className="button-2" href="https://github.com/LuqueMT/coventry_project">
                                 <IoInformationCircleOutline />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 .section-img .img-cole {
   display: flex;
@@ -18,4 +18,16 @@
   align-items: center;
   height: 16rem;
   width: 13rem;
+}
+.section-img .img-cole .content-colection .content-image:hover {
+  box-shadow: 3px 3px 20px rgba(51, 51, 51, 0.9176470588);
+}
+.section-img .img-cole .content-colection .content-image.exactTime {
+  background-image: url("../../../../public/assests/pages/ExactTime.png");
+}
+.section-img .img-cole .content-colection .content-image.artProject {
+  background-image: url("../../../../public/assests/pages/Art.png");
+}
+.section-img .img-cole .content-colection .content-image.coventry {
+  background-image: url("../../../../public/assests/pages/Coventry.png");
 }/*# sourceMappingURL=sites.css.map */

@@ -63,7 +63,6 @@
 .info-colection .button-2 {
   grid-column: 3;
   --bg: #000;
-  --hover-bg: #ff90e8;
   --hover-text: #e0e0e0;
   color: #fff;
   cursor: pointer;
@@ -71,6 +70,9 @@
   border-radius: 4px;
   width: 40px;
   height: 38px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   text-align: center;
   font-size: 20px;
   margin-left: 5px;

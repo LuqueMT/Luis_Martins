@@ -1,9 +1,11 @@
-.section-img {
+.section-img-mobile {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    justify-items: center;
     align-items: center;
-    gap: 3rem;
-
+    margin: 1rem;
+    gap: 1rem;
     .img-cole {
         display: flex;
         gap: 1rem;

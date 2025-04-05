@@ -3,7 +3,7 @@ import { IoInformationCircleOutline } from "react-icons/io5";
 import Link from "next/link"
 export default function Landing() {
     return (
-        <section className='section-img'>
+        <section className='section-img-mobile'>
             <div className='img-cole'>
                 <div className="content-colection">
                     <div className="content-image mobile flowBite">
@@ -11,12 +11,12 @@ export default function Landing() {
                             <h2>FlowBite</h2>
                             <Link target="_blank" href="https://luquemt.github.io/visual_project/">
                                 <div className="button-info">
-                                    <button className="button">Ver Mais</button>
+                                    <button className="button">Visualizar</button>
                                 </div>
                             </Link>
-                            <button className="button-2 show-popup">
+                            <Link target="_blank" className="button-2" href="https://github.com/LuqueMT/visual_project">
                                 <IoInformationCircleOutline />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -28,12 +28,12 @@ export default function Landing() {
                             <h2>Nexus Travel</h2>
                             <Link target="_blank" href="https://luquemt.github.io/traveling_page/">
                                 <div className="button-info">
-                                    <button className="button">Ver Mais</button>
+                                    <button className="button">Visualizar</button>
                                 </div>
                             </Link>
-                            <button className="button-2 show-popup">
+                            <Link target="_blank" className="button-2" href="https://github.com/LuqueMT/traveling_page">
                                 <IoInformationCircleOutline />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -45,16 +45,16 @@ export default function Landing() {
                             <h2>PetShop</h2>
                             <Link target="_blank" href="https://luquemt.github.io/petshop_page/">
                                 <div className="button-info">
-                                    <button className="button">Ver Mais</button>
+                                    <button className="button">Visualizar</button>
                                 </div>
                             </Link>
-                            <button className="button-2 show-popup">
+                            <Link target="_blank" className="button-2" href="https://github.com/LuqueMT/petshop_page">
                                 <IoInformationCircleOutline />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
