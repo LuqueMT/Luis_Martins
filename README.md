@@ -1,3 +1,21 @@
+# Portfólio de Programação
+
+Este é um portfólio desenvolvido em **Next.js**, com o objetivo de apresentar meus conhecimentos e projetos na área de programação.
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js**: Framework principal para criação do portfólio.
+- **React Vite**: Ferramenta para o desenvolvimento de aplicações modernas.
+- **Flowbite**: Framework de componentes baseados em Tailwind.
+- **Tailwind**: Estilização responsiva e otimizada.
+- **Bootstrap**: Framework CSS para construção rápida de layouts.
+
+## 📚 Conteúdo do Portfólio
+
+O portfólio inclui demonstrações de projetos e aplicações que utilizam as tecnologias mencionadas, além de destacar as minhas habilidades e experiência na área.
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
