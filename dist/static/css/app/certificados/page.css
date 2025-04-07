@@ -1,0 +1,307 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/certificados/style.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.container-body {
+  background-image: linear-gradient(to left, #0c0c0c, #05b41f, #048d04);
+  background-size: 500% 100%;
+  animation: deg-anima 5s infinite alternate;
+}
+.container-body .content {
+  margin: 0 6rem;
+}
+.container-body .content h2 {
+  font-size: 2rem;
+  color: white;
+  padding-top: 2rem;
+  text-shadow: 2px 2px 5px #969696;
+  font-family: var(--font-IBM);
+  border-bottom: 5px solid #08530c;
+}
+.container-body .content section {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 3rem;
+  gap: 3rem;
+  background-color: transparent;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+.container-body .content section .card-info {
+  box-shadow: 5px 5px 10px #969696;
+  transition: 0.4s ease;
+  margin-top: 2rem;
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+.container-body .content section .card-info img {
+  height: 100%;
+  width: 100%;
+  background-image: cover;
+}
+.container-body .content section .card-info:hover {
+  box-shadow: 9px 9px 20px rgba(216, 211, 211, 0.9176470588);
+}
+
+@keyframes deg-anima {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-body .content section {
+    grid-template-columns: repeat(1, 4fr);
+    gap: 2rem;
+  }
+  .container-body .content section .card-info {
+    width: 85vw;
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container-body .content section {
+    gap: 1rem;
+  }
+  .container-body .content section .card-info {
+    width: 90vw;
+    height: 20vh;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container-body .content {
+    margin: 0;
+  }
+  .container-body .content h2 {
+    font-size: 1.8rem;
+    padding: 2rem 0 0 1rem;
+  }
+  .container-body .content section .card-info {
+    width: 85vw;
+    height: 13vh;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .container-body .content section .card-info {
+    width: 40vw;
+    height: 20vh;
+  }
+}/*# sourceMappingURL=style.css.map */
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/components/Footer/footer.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+footer {
+  width: 100%;
+  color: var(--color-neutral-40);
+  letter-spacing: 1px;
+}
+footer .footer_content {
+  background-image: var(--color-45deg);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+}
+footer .footer_content .footer_contacts h1 {
+  margin-bottom: 0.75rem;
+  font-family: var(--font-IBM);
+  font-size: 55px;
+}
+footer .footer_content .footer_contacts p {
+  font-family: var(--font-MerriW);
+  font-size: 16px;
+  font-style: italic;
+}
+footer .footer_content .footer_contacts .footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+footer .footer_content .footer_contacts .footer_social_media a.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+footer .footer_content .footer_contacts .footer_social_media a.footer-link:hover {
+  color: white;
+}
+footer .footer_content .footer_contacts .footer_social_media a.footer-link.github {
+  background: linear-gradient(#000000, #0a0236, rgba(0, 0, 0, 0.6509803922));
+}
+footer .footer_content .footer_contacts .footer_social_media a.footer-link.linkedin {
+  background-color: #4267b3;
+}
+footer .footer_content .footer_contacts .footer_social_media .footer-link.whatsapp {
+  background-color: #25d366;
+}
+footer .footer_content .footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: circle;
+}
+footer .footer_content .footer-list li a.footer-link {
+  text-decoration: none;
+  transition: all 0.4s;
+  color: var(--color-neutral-40);
+}
+footer .footer_content .footer-list li a.footer-link:hover {
+  color: #b1b1b1;
+}
+footer .footer_content .footer_subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+footer .footer_content .footer_subscribe p {
+  color: var(--color-neutral-30);
+}
+footer .footer_content .footer_subscribe .input_group {
+  display: flex;
+  align-items: center;
+  background-color: #050505;
+  border-radius: 4px;
+}
+footer .footer_content .footer_subscribe .input_group input {
+  all: unset;
+  padding: 0.75rem;
+  width: 100%;
+}
+footer .footer_content .footer_subscribe .input_group button {
+  background-color: #ffffff;
+  border: none;
+  color: #050505;
+  padding: 0px 1.25rem;
+  font-size: 1.125rem;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+footer .footer_content .footer_subscribe .input_group button:hover {
+  opacity: 0.8;
+}
+footer .footer-copyright {
+  display: flex;
+  justify-content: center;
+  background-color: #050505;
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+}
+@media screen and (max-width: 768px) {
+  footer .footer_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer .footer_content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
+  }
+}/*# sourceMappingURL=footer.css.map */
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/components/Navbar/navbar.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+header {
+  background-color: #000000;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 3%;
+  background-color: rgba(0, 0, 0, 0);
+  height: 60px;
+  width: 100%;
+}
+header .navbar .logo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  height: 40px;
+  text-decoration: none;
+  color: #05b41f;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 6px #969696;
+  font-family: var(--font-Poppins);
+}
+header .navbar .nav-items {
+  z-index: 100;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  list-style: none;
+}
+header .navbar .nav-items.open {
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7529411765);
+  text-align: center;
+  padding: 20px;
+}
+header .navbar .nav-items .nav-item a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: var(--font-MerriW);
+  font-weight: 300;
+  color: #ffffff;
+  padding: 4px 0px;
+  transition: color 0.3s;
+}
+header .navbar .nav-items .nav-item a.active, header .navbar .nav-items .nav-item a:hover {
+  color: #f7f5ff;
+  border-bottom: 2px solid #05b41f;
+}
+header .navbar .btn-default {
+  border-radius: 10px;
+  padding: 10px 22px;
+  font-size: 15px;
+  font-family: var(--font-IBM);
+  cursor: pointer;
+  background-color: #05b41f;
+  border: none;
+  color: #f7f5ff;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+header .navbar .btn-default:hover {
+  background-color: #02640f;
+}
+header .navbar .btn-mobile {
+  display: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #f7f5ff;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+@media screen and (max-width: 768px) {
+  header .navbar .btn-mobile {
+    display: flex;
+  }
+  header .navbar .nav-items {
+    display: none;
+  }
+  header .navbar .nav-items.open {
+    display: block;
+  }
+}/*# sourceMappingURL=navbar.css.map */

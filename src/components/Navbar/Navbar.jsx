@@ -11,9 +11,9 @@ function Navbar() {
         <div className="nav-container">
             <header>
                 <nav className="navbar">
-                    <a href="/" className="logo-name">Nexus</a>
+                    <a href="https://luquemt.github.io/Luis_Martins/" className="logo-name">Nexus</a>
                     <ul className={`nav-items ${openMenu ? 'open' : ''}`}>
-                        <li className="nav-item"><a href="/">Home</a></li>
+                        <li className="nav-item"><a href="https://luquemt.github.io/Luis_Martins/">Home</a></li>
                         <li className="nav-item"><Link href="certificados">Certificados</Link></li>
                         <li className="nav-item"><Link href="#LP">Landing Pages</Link></li>
                     </ul>

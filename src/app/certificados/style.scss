@@ -5,9 +5,9 @@
 
     .content {
         margin: 0 6rem;
-
         h2 {
-            font-size: 2.5rem;
+            
+            font-size: 2rem;
             color: white;
             padding-top: 2rem;
             text-shadow: 2px 2px 5px #969696;
@@ -58,7 +58,6 @@
         background-position-x: 100%;
     }
 }
-
 @media screen and (max-width:768px) {
     .container-body {
         .content {
@@ -113,10 +112,6 @@
 @media screen and (max-width:1280px) {
     .container-body {
         .content {
-            h2 {
-                font-size: 4rem;
-                padding: 2rem 0 0 1rem;
-            }
             section {
                 .card-info {
                     width: 40vw;

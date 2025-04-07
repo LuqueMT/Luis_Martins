@@ -7,7 +7,7 @@
   margin: 0 6rem;
 }
 .container-body .content h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   padding-top: 2rem;
   text-shadow: 2px 2px 5px #969696;
@@ -84,10 +84,6 @@
   }
 }
 @media screen and (max-width: 1280px) {
-  .container-body .content h2 {
-    font-size: 4rem;
-    padding: 2rem 0 0 1rem;
-  }
   .container-body .content section .card-info {
     width: 40vw;
     height: 20vh;
