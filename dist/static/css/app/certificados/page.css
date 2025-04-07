@@ -55,6 +55,12 @@
     background-position-x: 100%;
   }
 }
+@media screen and (max-width: 1280px) {
+  .container-body .content section .card-info {
+    width: 40vw;
+    height: 20vh;
+  }
+}
 @media screen and (max-width: 768px) {
   .container-body .content section {
     grid-template-columns: repeat(1, 4fr);
@@ -85,12 +91,6 @@
   .container-body .content section .card-info {
     width: 85vw;
     height: 13vh;
-  }
-}
-@media screen and (max-width: 1280px) {
-  .container-body .content section .card-info {
-    width: 40vw;
-    height: 20vh;
   }
 }/*# sourceMappingURL=style.css.map */
 /*!******************************************************************************************************************************************************************************************************************************************************************************!*\
