@@ -73,8 +73,6 @@
 @media screen and (max-width:768px) {
     .container-body {
         .content {
-            h2 {}
-
             section {
                 grid-template-columns: repeat(1, 4fr);
                 gap: 2rem;
@@ -91,8 +89,6 @@
 @media screen and (max-width:480px) {
     .container-body {
         .content {
-            h2 {}
-
             section {
                 gap: 1rem;
                 .card-info {
@@ -115,7 +111,7 @@
             section {
                 .card-info {
                     width: 85vw;
-                    height: 13vh;
+                    height: 20vh;
                 }
             }
         }
