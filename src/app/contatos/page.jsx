@@ -39,7 +39,7 @@ export default function Contatos() {
 								<span className="text">Enviar</span>
 								<span>Obrigado!</span>
 							</button>
-							<input type="hidden" name="_next" value="http://localhost:3000/thanks"></input>
+							<input type="hidden" name="_next" value="https://luquemt.github.io/Luis_Martins/thanks"></input>
 						</form>
 					</div>
 					<div className="content-img">

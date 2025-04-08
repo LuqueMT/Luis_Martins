@@ -1,0 +1,345 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/thanks/thanks.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+a {
+  color: #ebebeb;
+}
+
+.container-obg {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #0c0c0c, #05b41f, #048d04);
+  background-size: 500% 100%;
+  animation: deg-anima 5s infinite alternate;
+}
+.container-obg .body-obg {
+  display: flex;
+  height: 60vh;
+  width: 60vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(77, 77, 77, 0.1647058824);
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.4);
+  transition: 0.4s ease;
+}
+.container-obg .body-obg h2 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.container-obg .body-obg p {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.container-obg .body-obg img {
+  margin-top: 0;
+  height: 40vh;
+  width: 40vw;
+}
+.container-obg .body-obg .options {
+  display: flex;
+  gap: 3rem;
+  margin: 2rem;
+}
+.container-obg .body-obg .options .btn {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  height: 40px;
+  width: 130px;
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+.container-obg .body-obg .options .btn:hover {
+  box-shadow: 0 0 20px #ebebeb;
+}
+.container-obg .body-obg .options a {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-obg .body-obg .options img {
+  width: 20px;
+  height: 20px;
+}
+.container-obg .body-obg .options .linkedin-btn {
+  background-image: linear-gradient(-45deg, #06719b, #322332);
+}
+.container-obg .body-obg .options .whatsapp-btn {
+  background-image: linear-gradient(-45deg, #04f518, #322332);
+}
+.container-obg .body-obg .options .outlook-btn {
+  background-image: linear-gradient(-45deg, #32abf1, #322332);
+}
+.container-obg .body-obg:hover {
+  box-shadow: 15px 15px 20px rgba(255, 255, 255, 0.699);
+  border-radius: 20px 0 0 0;
+}
+
+@keyframes deg-anima {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-obg {
+    width: 100%;
+    min-height: 70vh;
+  }
+  .container-obg .body-obg {
+    display: flex;
+    height: 60vh;
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container-obg {
+    width: 100%;
+    min-height: 60vh;
+  }
+  .container-obg .body-obg {
+    display: flex;
+    height: 50vh;
+    width: 85vw;
+    flex-direction: column;
+  }
+  .container-obg .body-obg p {
+    font-size: 25px;
+    font-style: italic;
+    font-family: var(--font-Poppins);
+  }
+  .container-obg .body-obg .options {
+    flex-direction: column;
+  }
+  .container-obg .body-obg .options .btn {
+    height: 3vh;
+    width: 15vh;
+  }
+}/*# sourceMappingURL=thanks.css.map */
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/components/Footer/footer.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+footer {
+  width: 100%;
+  color: var(--color-neutral-40);
+  letter-spacing: 1px;
+}
+footer .footer_content {
+  background-image: var(--color-45deg);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+}
+footer .footer_content .footer_contacts h1 {
+  margin-bottom: 0.75rem;
+  font-family: var(--font-IBM);
+  font-size: 55px;
+}
+footer .footer_content .footer_contacts p {
+  font-family: var(--font-MerriW);
+  font-size: 16px;
+  font-style: italic;
+}
+footer .footer_content .footer_contacts .footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+footer .footer_content .footer_contacts .footer_social_media a.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+footer .footer_content .footer_contacts .footer_social_media a.footer-link:hover {
+  color: white;
+}
+footer .footer_content .footer_contacts .footer_social_media a.footer-link.github {
+  background: linear-gradient(#000000, #0a0236, rgba(0, 0, 0, 0.6509803922));
+}
+footer .footer_content .footer_contacts .footer_social_media a.footer-link.linkedin {
+  background-color: #4267b3;
+}
+footer .footer_content .footer_contacts .footer_social_media .footer-link.whatsapp {
+  background-color: #25d366;
+}
+footer .footer_content .footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: circle;
+}
+footer .footer_content .footer-list li a.footer-link {
+  text-decoration: none;
+  transition: all 0.4s;
+  color: var(--color-neutral-40);
+}
+footer .footer_content .footer-list li a.footer-link:hover {
+  color: #b1b1b1;
+}
+footer .footer_content .footer_subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+footer .footer_content .footer_subscribe p {
+  color: var(--color-neutral-30);
+}
+footer .footer_content .footer_subscribe .input_group {
+  display: flex;
+  align-items: center;
+  background-color: #050505;
+  border-radius: 4px;
+}
+footer .footer_content .footer_subscribe .input_group input {
+  all: unset;
+  padding: 0.75rem;
+  width: 100%;
+}
+footer .footer_content .footer_subscribe .input_group button {
+  background-color: #ffffff;
+  border: none;
+  color: #050505;
+  padding: 0px 1.25rem;
+  font-size: 1.125rem;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+footer .footer_content .footer_subscribe .input_group button:hover {
+  opacity: 0.8;
+}
+footer .footer-copyright {
+  display: flex;
+  justify-content: center;
+  background-color: #050505;
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+}
+@media screen and (max-width: 768px) {
+  footer .footer_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer .footer_content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
+  }
+}/*# sourceMappingURL=footer.css.map */
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/components/Navbar/navbar.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+header {
+  background-color: #000000;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 3%;
+  background-color: rgba(0, 0, 0, 0);
+  height: 60px;
+  width: 100%;
+}
+header .navbar .logo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  height: 40px;
+  text-decoration: none;
+  color: #05b41f;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 6px #969696;
+  font-family: var(--font-Poppins);
+}
+header .navbar .nav-items {
+  z-index: 100;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  list-style: none;
+}
+header .navbar .nav-items.open {
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7529411765);
+  text-align: center;
+  padding: 20px;
+}
+header .navbar .nav-items .nav-item a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: var(--font-MerriW);
+  font-weight: 300;
+  color: #ffffff;
+  padding: 4px 0px;
+  transition: color 0.3s;
+}
+header .navbar .nav-items .nav-item a.active, header .navbar .nav-items .nav-item a:hover {
+  color: #f7f5ff;
+  border-bottom: 2px solid #05b41f;
+}
+header .navbar .btn-default {
+  border-radius: 10px;
+  padding: 10px 22px;
+  font-size: 15px;
+  font-family: var(--font-IBM);
+  cursor: pointer;
+  background-color: #05b41f;
+  border: none;
+  color: #f7f5ff;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+header .navbar .btn-default:hover {
+  background-color: #02640f;
+}
+header .navbar .btn-mobile {
+  display: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #f7f5ff;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+@media screen and (max-width: 768px) {
+  header .navbar .btn-mobile {
+    display: flex;
+  }
+  header .navbar .nav-items {
+    display: none;
+  }
+  header .navbar .nav-items.open {
+    display: block;
+  }
+}/*# sourceMappingURL=navbar.css.map */
