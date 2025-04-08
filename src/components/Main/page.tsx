@@ -37,7 +37,7 @@ export default function Main() {
                      <W_Sites />
                   </div>
                   <div id="LP" className="container-slider" data-aos="fade-right" data-aos-delay="500">
-                     <h3>/Landig Pages:</h3>
+                     <h3>/Landing Pages:</h3>
                      <Slider />
                   </div>
                   <div id="LP" className="container-landing" data-aos="fade-right" data-aos-delay="500">

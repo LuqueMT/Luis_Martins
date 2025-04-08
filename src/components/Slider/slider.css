@@ -35,11 +35,13 @@
   font-size: 5rem;
   font-weight: bold;
   line-height: 1.3em;
+  text-shadow: 3px 3px 2px #333;
 }
 .slider .list .item .content .type {
   font-size: 5rem;
   font-weight: bold;
   line-height: 1.3em;
+  text-shadow: 1px 1px 2px #333;
   color: rgba(20, 255, 114, 0.7960784314);
 }
 .slider .list .item .content .desc {
